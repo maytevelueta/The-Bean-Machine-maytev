@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  width: 100%;
+/*   margin: 16px;
+  padding: 18px; */
+}
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+}
+
+.container {
+/*   margin: 20px; */
+  width:80%;
+  margin: 0 auto;
+padding-bottom: 100px;
+}
+
+.navtop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+img {
+    align-self: center;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitem {
+  width: 85px;
+  height: 25px;
+  color: black;
+}
+
+.login {
+  width: 85px;
+  height: 25px; 
+  color: #FFFFFF;
+  background: #1D1C1C;
+  border-radius: 40px;
+  border: none;
+}
+
+.banner {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.bannertitle {
+  display: flex;
+  width: 500px;
+}
+
+.bannersubtitle {
+  display: flex;
+}
+
+.banner-input {
+  display: flex;
+  width: 400px;
+  height: 64px;
+  border-radius: 16px;
+  background: #F6F2EF;
+  border: none;
+}
+
+.searchbtn {
+  display: flex;
+  position: inline-block;
+  margin-top: 120px;
+}
+
+.banner-image {
+  position: absolut;
+  margin-left: 50px;
+}
+
+.about-section {
+  padding-bottom: 50px;
+}
+
+.adress {
+  color: #FF5678;
+  font-weight: bold;
+}
+
+.special-offer-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.beanscontainer {
+  width: 345px;
+  height: 420px;
+  background-color: #F6F2EF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.beansimage {
+  border-radius: 16px;
+}
+
+.coffee-beans {
+  align-items: center;
+}
+
+.coffee-beans-button {
+  width: 157px;
+  height: 48px;
+  background-color: #FF5678;
+  color: #FFFFFF;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer {
+  height: 229px;
+  background: #1D1C1C;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+}
+
+.footericons {
+}
+
+
+/* Add styles here */
